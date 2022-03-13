@@ -1,0 +1,157 @@
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-left: 35px;
+    
+}
+ a {
+     text-decoration: none;
+     font-weight: bolder;
+     color: rgb(50, 46, 46);
+ }
+.navbar {
+    display:grid;
+    grid-template-columns:  25% 50% 25%;
+    align-items: center;
+}
+.list {
+    justify-self: center;
+    font-size: 20px;
+}
+.login {
+    justify-self: end;
+    margin-right: 25px;
+    font-size: 20px;
+}
+.segment ul li a{
+    font-size: 35px;
+    color: rgb(17, 216, 17);
+    
+}
+.sign {
+    border: 10px solid ;
+    border-radius: 15px;
+    opacity: 0.5;
+    background-color: rgb(17, 216, 17);
+    color: white;
+    padding: 15PX;
+}
+.sign:hover {
+    opacity: 1;
+    transition: opacity 1s;
+}
+.second {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+ input {
+     width: 150px;
+     height: 45px;
+     justify-self: end;
+     text-align: center;
+     font-weight: bolder;
+     font-size: 15px;
+     
+     border: none;
+     opacity: 0.4;
+ }
+ hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+ }
+
+ .second ul li a:hover {
+     color: rgb(17, 216, 17);
+     border-bottom: solid rgb(17, 216, 17);
+     padding-bottom: 23px ;
+ }
+
+ .container {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     
+ }
+
+ .container header {
+     font-size: 25px;
+     font-weight: bolder;
+     color: rgb(76, 66, 66);
+     font-family: 'Courier New', Courier, monospace;
+     margin-left: 71px;
+     margin-top: 50px;
+     line-height: 33px;
+ }
+ .sideimg {
+     margin-top: 50px;
+ }
+ .ppimage {
+     position: relative;
+     top: 25px;
+     left: 61px;
+     float: left;
+ }
+ .explanations {
+     margin-left: 150px;
+     margin-top: 38px;
+     font-weight: bolder;
+     color: rgb(105, 86, 86);
+ }
+ .intext {
+    margin-left: 68px;
+    margin-top: 35px;
+    margin-right: 140px;
+    line-height: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 0.5;
+    
+ }
+ .company {
+     border: 1px solid rgb(184, 203, 230);
+     border-radius: 5px;
+     margin-left: 60px;
+     padding: 5px;
+     background-color: rgb(212, 210, 238);
+     color: rgb(95, 95, 231);
+ }
+ .subcontainer {
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     
+ }
+ .sidebar1 header {
+     margin-top: 25px;
+     margin-left: 61px;
+     font-size: 35px;
+     font-family: Arial, Helvetica, sans-serif;
+     border-left: 5px solid rgb(17, 216, 17);
+     padding-left: 10px;
+ }
+
+ .sidebar1 img {
+     margin-left: 57px;
+     margin-top: 45px;
+ }
+
+ .sidebar1 {
+     margin-top: 55px;
+ }
+ .sidebar1 p {
+     margin-left: 61px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+ }
+
+ .sidebar2 {
+     margin-top: 105px;
+ }
+ .sidebar2 a {
+     color: rgb(17, 216, 17);
+     margin-left: 400px;
+ }
+ .sidebar2 img {
+     float: left;
+ }
